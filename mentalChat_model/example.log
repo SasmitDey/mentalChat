@@ -38,3 +38,43 @@ DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
 DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
 DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /CornellNLP/ConvoKit/master/download_config.json HTTP/1.1" 200 916
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /CornellNLP/ConvoKit/master/download_config.json HTTP/1.1" 200 916
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "jk\" as a close match to "jk\" with a confidence of 0
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "jk\" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "jk\" as a response to "None"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
