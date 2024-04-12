@@ -408,3 +408,13 @@ INFO:chatterbot.response_selection:Selecting first response from list of 32 opti
 INFO:chatterbot.chatterbot:Response selected. Using "Hi"
 INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
 INFO:chatterbot.chatterbot:Adding "Hello" as a response to "I do"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /CornellNLP/ConvoKit/master/download_config.json HTTP/1.1" 200 916

@@ -1,0 +1,11 @@
+*{
+    align-content: center;
+    color: red;
+}
+.bot, #talk_button{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    color: antiquewhite;
+    border-radius: 10px;
+}
