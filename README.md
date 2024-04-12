@@ -1,2 +1,2 @@
-# studentSocial
-Social media platform for students. Made for a 24 hour hackathon. 
+# mentalChat
+Online chatbot with expertise in mental health.
