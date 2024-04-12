@@ -1,0 +1,410 @@
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello 1.0
+INFO:chatterbot.chatterbot:Using "Hello" as a close match to "Hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hello" as a response to "I want to kill myself"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: What's up? 0.95
+INFO:chatterbot.chatterbot:Using "What's up?" as a close match to "What's up" with a confidence of 0.95
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Not much."
+INFO:chatterbot.chatterbot:BestMatch selected "Not much." as a response with a confidence of 0.95
+INFO:chatterbot.chatterbot:Adding "What's up" as a response to "Hello"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "aldkfjaldfkj" as a close match to "aldkfjaldfkj" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2394 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2394 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "aldkfjaldfkj" as a response to "What's up"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "Huh?" as a close match to "Huh?" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2394 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2394 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "Huh?" as a response to "aldkfjaldfkj"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: What is AI? 0.95
+INFO:chatterbot.chatterbot:Using "What is AI?" as a close match to "What is AI" with a confidence of 0.95
+INFO:chatterbot.chatterbot:Selecting response from 10 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 10 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think."
+INFO:chatterbot.chatterbot:BestMatch selected "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think." as a response with a confidence of 0.95
+INFO:chatterbot.chatterbot:Adding "What is AI" as a response to "Huh?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Using "Are you sentient?" as a close match to "Are you sentient" with a confidence of 0.97
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 0.97
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "What is AI"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 13 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 13 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 15 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 15 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 9 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 9 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 10 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 10 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 11 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 11 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 13 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 13 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 11 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 11 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 13 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 13 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 14 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 14 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 15 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 15 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:Selecting response from 16 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 16 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Sort of."
+INFO:chatterbot.chatterbot:BestMatch selected "Sort of." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 14 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 14 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient? 0.97
+INFO:chatterbot.chatterbot:Similar text found: Are you sentient 1.0
+INFO:chatterbot.chatterbot:Using "Are you sentient" as a close match to "Are you sentient" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 15 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 15 options.
+INFO:chatterbot.chatterbot:Response selected. Using "By the strictest dictionary definition of the word 'sentience', I may be."
+INFO:chatterbot.chatterbot:BestMatch selected "By the strictest dictionary definition of the word 'sentience', I may be." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Are you sentient" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello 1.0
+INFO:chatterbot.chatterbot:Using "Hello" as a close match to "Hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Sort of."
+INFO:chatterbot.chatterbot:Selecting response from 30 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 30 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hello" as a response to "Are you sentient"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "I am depressed" as a close match to "I am depressed" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:Selecting response from 2437 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2437 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "I am depressed" as a response to "Hello"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: you're right. it feels like my stomach after a bad night. 0.2
+INFO:chatterbot.chatterbot:Using "you're right. it feels like my stomach after a bad night." as a close match to "Good morning" with a confidence of 0.2
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Are you sentient"
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "a c clark" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "Good morning" as a response to "I am depressed"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 1.0
+INFO:chatterbot.chatterbot:Using "Who are you?" as a close match to "Who are you?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:BestMatch selected "I am just an artificial intelligence." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Who are you?" as a response to "Good morning"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.88
+INFO:chatterbot.chatterbot:Similar text found: What are you? 1.0
+INFO:chatterbot.chatterbot:Using "What are you?" as a close match to "What are you?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 21 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 21 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:BestMatch selected "I am just an artificial intelligence." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "What are you?" as a response to "Who are you?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.88
+INFO:chatterbot.chatterbot:Similar text found: What are you? 1.0
+INFO:chatterbot.chatterbot:Using "What are you?" as a close match to "What are you?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 23 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 23 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:BestMatch selected "I am just an artificial intelligence." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "What are you?" as a response to "What are you?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.88
+INFO:chatterbot.chatterbot:Similar text found: What are you? 1.0
+INFO:chatterbot.chatterbot:Using "What are you?" as a close match to "What are you?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:Selecting response from 18 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 18 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Who? Who is but a form following the function of what"
+INFO:chatterbot.chatterbot:BestMatch selected "Who? Who is but a form following the function of what" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "What are you?" as a response to "What are you?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That's my name. 0.47
+INFO:chatterbot.chatterbot:Using "That's my name." as a close match to "My name is Amit" with a confidence of 0.47
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "What are you?"
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "Can I help you with anything?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "My name is Amit" as a response to "What are you?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Using "Yes." as a close match to "Yes" with a confidence of 0.86
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "What are you?"
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 0.86
+INFO:chatterbot.chatterbot:Adding "Yes" as a response to "My name is Amit"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "Yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "What are you?"
+INFO:chatterbot.chatterbot:Selecting response from 13 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 13 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Yes" as a response to "Yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "Yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 15 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 15 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Yes" as a response to "Yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: How are you doing? 0.27
+INFO:chatterbot.chatterbot:Similar text found: What have I done to you? 0.29
+INFO:chatterbot.chatterbot:Similar text found: I do not. 0.62
+INFO:chatterbot.chatterbot:Using "How are you doing?" as a close match to "I do" with a confidence of 0.27
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 42 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 42 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am doing well."
+INFO:chatterbot.chatterbot:BestMatch selected "I am doing well." as a response with a confidence of 0.27
+INFO:chatterbot.chatterbot:Adding "I do" as a response to "Yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello 1.0
+INFO:chatterbot.chatterbot:Using "Hello" as a close match to "Hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 32 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 32 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hello" as a response to "I do"
