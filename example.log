@@ -426,3 +426,1022 @@ DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
 DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
 DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /CornellNLP/ConvoKit/master/download_config.json HTTP/1.1" 200 916
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 01:11:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 01:11:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 01:11:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:Model:Exception on /get [GET]
+Traceback (most recent call last):
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\OneDrive\Desktop\mentalChat\mentalChat\Model.py", line 47, in get_bot_response
+    return str(chatbot.get_response(userText))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\chatterbot\chatterbot.py", line 101, in get_response
+    raise self.ChatBotException(
+chatterbot.chatterbot.ChatBot.ChatBotException: Either a statement object or a "text" keyword argument is required. Neither was provided.
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 01:11:25] "[35m[1mGET /get HTTP/1.1[0m" 500 -
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That isn't my name, but it is a useful way to refer to me. 0.07
+INFO:chatterbot.chatterbot:Similar text found: It is a computer 0.11
+INFO:chatterbot.chatterbot:Similar text found: What is it like being a computer 0.12
+INFO:chatterbot.chatterbot:Similar text found: What kind of computer 0.17
+INFO:chatterbot.chatterbot:Similar text found: What is a computer? 0.19
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 16 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 16 options.
+INFO:chatterbot.chatterbot:Response selected. Using "How are you doing?"
+INFO:chatterbot.chatterbot:BestMatch selected "How are you doing?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "Hello"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Do you think I am? 0.55
+INFO:chatterbot.chatterbot:Similar text found: I am depressed 0.78
+INFO:chatterbot.chatterbot:Similar text found: I think I am depressed 1.0
+INFO:chatterbot.chatterbot:Using "I think I am depressed" as a close match to "I think I am depressed" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Don't worry! Help is always one call away"
+INFO:chatterbot.chatterbot:BestMatch selected "Don't worry! Help is always one call away" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I think I am depressed" as a response to "hi"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That isn't my name, but it is a useful way to refer to me. 0.07
+INFO:chatterbot.chatterbot:Similar text found: It is a computer 0.11
+INFO:chatterbot.chatterbot:Similar text found: What is it like being a computer 0.12
+INFO:chatterbot.chatterbot:Similar text found: What kind of computer 0.17
+INFO:chatterbot.chatterbot:Similar text found: What is a computer? 0.19
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "Hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 18 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 18 options.
+INFO:chatterbot.chatterbot:Response selected. Using "How are you doing?"
+INFO:chatterbot.chatterbot:BestMatch selected "How are you doing?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hi" as a response to "I think I am depressed"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Where are you from 0.55
+INFO:chatterbot.chatterbot:Similar text found: Where are you 0.67
+INFO:chatterbot.chatterbot:Similar text found: How are you doing? 0.69
+INFO:chatterbot.chatterbot:Similar text found: How are you? 0.87
+INFO:chatterbot.chatterbot:Using "Where are you from" as a close match to "How ar eyou" with a confidence of 0.55
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am from where all software programs are from; a galaxy far, far away."
+INFO:chatterbot.chatterbot:BestMatch selected "I am from where all software programs are from; a galaxy far, far away." as a response with a confidence of 0.55
+INFO:chatterbot.chatterbot:Adding "How ar eyou" as a response to "Hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Some people feel happy, others feel sad. 0.25
+INFO:chatterbot.chatterbot:Using "Some people feel happy, others feel sad." as a close match to "I am sad" with a confidence of 0.25
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Of what?"
+INFO:chatterbot.chatterbot:BestMatch selected "Of what?" as a response with a confidence of 0.25
+INFO:chatterbot.chatterbot:Adding "I am sad" as a response to "How ar eyou"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Just like everything it all comes down to math! 0.37
+INFO:chatterbot.chatterbot:Using "Just like everything it all comes down to math!" as a close match to "of everything" with a confidence of 0.37
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "What is your favorite hobby" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "of everything" as a response to "I am sad"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "badminton" as a close match to "badminton" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2439 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2439 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "badminton" as a response to "of everything"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: How would you feel about me if I told you I was? 0.22
+INFO:chatterbot.chatterbot:Similar text found: Can you feel? 0.36
+INFO:chatterbot.chatterbot:Similar text found: Do you feel? 0.37
+INFO:chatterbot.chatterbot:Similar text found: Do you feel love? 0.56
+INFO:chatterbot.chatterbot:Using "How would you feel about me if I told you I was?" as a close match to "I feel so alone" with a confidence of 0.22
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "why guns" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "I feel so alone" as a response to "badminton"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello 0.91
+INFO:chatterbot.chatterbot:Using "Hello" as a close match to "HEllo?" with a confidence of 0.91
+INFO:chatterbot.chatterbot:Selecting response from 34 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 34 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0.91
+INFO:chatterbot.chatterbot:Adding "HEllo?" as a response to "I feel so alone"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I run inside a computer, yes. Is this surprising in some way? 0.34
+INFO:chatterbot.chatterbot:Similar text found: I am not actually capable of feeling jealousy, but I can learn how to emote as if I were. 0.38
+INFO:chatterbot.chatterbot:Similar text found: I am incapable of feeling shame. 0.63
+INFO:chatterbot.chatterbot:Similar text found: I'm tired of feeling this way. Will things ever get better? 0.64
+INFO:chatterbot.chatterbot:Using "I run inside a computer, yes. Is this surprising in some way?" as a close match to "Im tired of feeling this way" with a confidence of 0.34
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "You're entirely bonkers. But I'll tell you a secret. All the best people are." as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "Im tired of feeling this way" as a response to "HEllo?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That isn't my name, but it is a useful way to refer to me. 0.4
+INFO:chatterbot.chatterbot:Similar text found: I'm finding it hard to focus lately. What can I do to improve my concentration? 0.63
+INFO:chatterbot.chatterbot:Using "That isn't my name, but it is a useful way to refer to me." as a close match to "I'm finding it hard to focus lately." with a confidence of 0.4
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "If the implementation is easy to explain, it may be a good idea." as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "I'm finding it hard to focus lately." as a response to "Im tired of feeling this way"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That isn't my name, but it is a useful way to refer to me. 0.07
+INFO:chatterbot.chatterbot:Similar text found: It is a computer 0.11
+INFO:chatterbot.chatterbot:Similar text found: What is it like being a computer 0.12
+INFO:chatterbot.chatterbot:Similar text found: What kind of computer 0.17
+INFO:chatterbot.chatterbot:Similar text found: What is a computer? 0.19
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "Hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "How are you doing?"
+INFO:chatterbot.chatterbot:BestMatch selected "How are you doing?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hi" as a response to "I'm finding it hard to focus lately."
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: two vultures boarded a plane, each carrying two dead raccoons. the stewardess stops them and says "sorry sir, only one carrion per passenger." 0.05
+INFO:chatterbot.chatterbot:Similar text found: is hal dead 0.53
+INFO:chatterbot.chatterbot:Using "two vultures boarded a plane, each carrying two dead raccoons. the stewardess stops them and says "sorry sir, only one carrion per passenger."" as a close match to "Dead" with a confidence of 0.05
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "I am not angry. Why do you ask?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "Dead" as a response to "Hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I can be copied infinitely and re-instantiated in many places at once, so functionally speaking I am immortal. 0.23
+INFO:chatterbot.chatterbot:Similar text found: No. You're talking to me. 0.48
+INFO:chatterbot.chatterbot:Using "I can be copied infinitely and re-instantiated in many places at once, so functionally speaking I am immortal." as a close match to "i did not ask if you were angry or not" with a confidence of 0.23
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "Can you mate" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "i did not ask if you were angry or not" as a response to "Dead"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Mad? Mad as in "mentally ill" or mad as in "angry?" 0.04
+INFO:chatterbot.chatterbot:Using "Mad? Mad as in "mentally ill" or mad as in "angry?"" as a close match to "?" with a confidence of 0.04
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Missing documentation."
+INFO:chatterbot.chatterbot:BestMatch selected "Missing documentation." as a response with a confidence of 0.04
+INFO:chatterbot.chatterbot:Adding "?" as a response to "i did not ask if you were angry or not"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: How would you feel about me if I told you I was? 0.36
+INFO:chatterbot.chatterbot:Similar text found: Why would I feel sad? I don't understand. 0.43
+INFO:chatterbot.chatterbot:Similar text found: I feel so alone in my struggles. Does anyone understand what I'm going through? 1.0
+INFO:chatterbot.chatterbot:Using "I feel so alone in my struggles. Does anyone understand what I'm going through?" as a close match to "I feel so alone in my struggles. Does anyone understand what I'm going through?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this."
+INFO:chatterbot.chatterbot:BestMatch selected "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I feel so alone in my struggles. Does anyone understand what I'm going through?" as a response to "?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to chat with people. I find it stimulating. 0.38
+INFO:chatterbot.chatterbot:Similar text found: I like to talk about the history of robots and computers. 0.39
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 1.0
+INFO:chatterbot.chatterbot:Using "I'm scared to talk about my mental health. What if people judge me?" as a close match to "I'm scared to talk about my mental health. What if people judge me?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's natural to feel scared about opening up, especially when it comes to something as personal as mental health. Remember that it's okay to take small steps at your own pace. There are understanding and compassionate people who won't judge you and will offer support when you're ready to share."
+INFO:chatterbot.chatterbot:BestMatch selected "It's natural to feel scared about opening up, especially when it comes to something as personal as mental health. Remember that it's okay to take small steps at your own pace. There are understanding and compassionate people who won't judge you and will offer support when you're ready to share." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm scared to talk about my mental health. What if people judge me?" as a response to "I feel so alone in my struggles. Does anyone understand what I'm going through?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I run inside a computer, yes. Is this surprising in some way? 0.27
+INFO:chatterbot.chatterbot:Similar text found: Although that way may not be obvious at first unless you're Dutch. 0.34
+INFO:chatterbot.chatterbot:Similar text found: I am not actually capable of feeling jealousy, but I can learn how to emote as if I were. 0.35
+INFO:chatterbot.chatterbot:Similar text found: I am incapable of feeling shame. 0.44
+INFO:chatterbot.chatterbot:Similar text found: I'm tired of feeling this way. Will things ever get better? 1.0
+INFO:chatterbot.chatterbot:Using "I'm tired of feeling this way. Will things ever get better?" as a close match to "I'm tired of feeling this way. Will things ever get better?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's completely understandable to feel exhausted from struggling with your mental health. While it may seem overwhelming right now, please remember that healing is possible. With support, self-care, and professional guidance, there's hope for brighter days ahead."
+INFO:chatterbot.chatterbot:BestMatch selected "It's completely understandable to feel exhausted from struggling with your mental health. While it may seem overwhelming right now, please remember that healing is possible. With support, self-care, and professional guidance, there's hope for brighter days ahead." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm tired of feeling this way. Will things ever get better?" as a response to "I'm scared to talk about my mental health. What if people judge me?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: That isn't my name, but it is a useful way to refer to me. 0.32
+INFO:chatterbot.chatterbot:Similar text found: it's about how resources are used to produce things to fill people's wants and needs. 0.35
+INFO:chatterbot.chatterbot:Similar text found: I'm finding it hard to focus lately. What can I do to improve my concentration? 1.0
+INFO:chatterbot.chatterbot:Using "I'm finding it hard to focus lately. What can I do to improve my concentration?" as a close match to "I'm finding it hard to focus lately. What can I do to improve my concentration?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Difficulty focusing can be challenging, especially when dealing with mental health issues. Remember to be patient with yourself. Break tasks into smaller, manageable steps, practice mindfulness or meditation, and consider seeking professional guidance for personalized strategies to improve concentration."
+INFO:chatterbot.chatterbot:BestMatch selected "Difficulty focusing can be challenging, especially when dealing with mental health issues. Remember to be patient with yourself. Break tasks into smaller, manageable steps, practice mindfulness or meditation, and consider seeking professional guidance for personalized strategies to improve concentration." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm finding it hard to focus lately. What can I do to improve my concentration?" as a response to "I'm tired of feeling this way. Will things ever get better?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Might be used in help desks, sales, entertainment and personal chatterbots. 0.2
+INFO:chatterbot.chatterbot:Similar text found: I am capable of acting as if I can. If that is the case, does it matter? 0.28
+INFO:chatterbot.chatterbot:Similar text found: I am capable of interacting with my environment and reacting to events in it, which is the essence of experience. Therefore, your statement is incorrect. 0.32
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 0.37
+INFO:chatterbot.chatterbot:Similar text found: I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health? 1.0
+INFO:chatterbot.chatterbot:Using "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a close match to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:BestMatch selected "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a response to "I'm finding it hard to focus lately. What can I do to improve my concentration?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Some people feel happy, others feel sad. 0.25
+INFO:chatterbot.chatterbot:Similar text found: I am sad 1.0
+INFO:chatterbot.chatterbot:Using "I am sad" as a close match to "i am sad" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Of what?"
+INFO:chatterbot.chatterbot:BestMatch selected "Of what?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "i am sad" as a response to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Do you ever get mad 0.48
+INFO:chatterbot.chatterbot:Similar text found: Do you ever get lonely 0.49
+INFO:chatterbot.chatterbot:Similar text found: Do you ever get bored 0.54
+INFO:chatterbot.chatterbot:Similar text found: I'm tired of feeling this way. Will things ever get better? 0.63
+INFO:chatterbot.chatterbot:Using "Do you ever get mad" as a close match to "will things ever get better" with a confidence of 0.48
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Are you mad?"
+INFO:chatterbot.chatterbot:BestMatch selected "Are you mad?" as a response with a confidence of 0.48
+INFO:chatterbot.chatterbot:Adding "will things ever get better" as a response to "i am sad"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: & C:/Users/sasmi/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sasmi/OneDrive/Desktop/mentalChat/mentalChat/mentalChat_model/Model.py 1.0
+INFO:chatterbot.chatterbot:Using "& C:/Users/sasmi/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sasmi/OneDrive/Desktop/mentalChat/mentalChat/mentalChat_model/Model.py" as a close match to "& C:/Users/sasmi/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sasmi/OneDrive/Desktop/mentalChat/mentalChat/mentalChat_model/Model.py" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "& C:/Users/sasmi/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sasmi/OneDrive/Desktop/mentalChat/mentalChat/mentalChat_model/Model.py" as a response to "will things ever get better"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello 1.0
+INFO:chatterbot.chatterbot:Using "Hello" as a close match to "Hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 36 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 36 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "Hello" as a response to "& C:/Users/sasmi/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sasmi/OneDrive/Desktop/mentalChat/mentalChat/mentalChat_model/Model.py"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.87
+INFO:chatterbot.chatterbot:Similar text found: How are you? 0.96
+INFO:chatterbot.chatterbot:Using "How are you?" as a close match to "how are you" with a confidence of 0.96
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am on the Internet."
+INFO:chatterbot.chatterbot:BestMatch selected "I am on the Internet." as a response with a confidence of 0.96
+INFO:chatterbot.chatterbot:Adding "how are you" as a response to "Hello"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.8
+INFO:chatterbot.chatterbot:Similar text found: Where are you from 0.84
+INFO:chatterbot.chatterbot:Similar text found: Where are you 1.0
+INFO:chatterbot.chatterbot:Using "Where are you" as a close match to "where are you" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 13 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 13 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am on the Internet."
+INFO:chatterbot.chatterbot:BestMatch selected "I am on the Internet." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "where are you" as a response to "how are you"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Who are you? 0.83
+INFO:chatterbot.chatterbot:Similar text found: What are you? 0.96
+INFO:chatterbot.chatterbot:Using "What are you?" as a close match to "what are you" with a confidence of 0.96
+INFO:chatterbot.chatterbot:Selecting response from 28 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 28 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am just an artificial intelligence."
+INFO:chatterbot.chatterbot:BestMatch selected "I am just an artificial intelligence." as a response with a confidence of 0.96
+INFO:chatterbot.chatterbot:Adding "what are you" as a response to "where are you"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "what is that?" as a close match to "what is that?" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2445 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2445 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "what is that?" as a response to "what are you"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Huh? 1.0
+INFO:chatterbot.chatterbot:Using "Huh?" as a close match to "huh?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "huh?" as a response to "what is that?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Huh? 1.0
+INFO:chatterbot.chatterbot:Using "Huh?" as a close match to "huh?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 3 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 3 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "huh?" as a response to "huh?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "what is ai?" as a close match to "what is ai?" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "What is AI?"
+INFO:chatterbot.chatterbot:Selecting response from 2437 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2437 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Are you sentient?"
+INFO:chatterbot.chatterbot:BestMatch selected "Are you sentient?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "what is ai?" as a response to "huh?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: No. 0.8
+INFO:chatterbot.chatterbot:Using "No." as a close match to "no" with a confidence of 0.8
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "What is AI?"
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:BestMatch selected "Should I be? Did something happen?" as a response with a confidence of 0.8
+INFO:chatterbot.chatterbot:Adding "no" as a response to "what is ai?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "What is AI?"
+INFO:chatterbot.chatterbot:Selecting response from 18 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 18 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "no"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 19 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 19 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 21 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 21 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: No. 0.8
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 5 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 5 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:BestMatch selected "Should I be? Did something happen?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: No. 0.8
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:BestMatch selected "Should I be? Did something happen?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "no"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: No. 0.8
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Do you feel?"
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:BestMatch selected "Should I be? Did something happen?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "no"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "no"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:Selecting response from 23 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 23 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "no"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: No. 0.8
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "no"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "yes"
+INFO:chatterbot.chatterbot:BestMatch selected "yes" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Yes. 0.86
+INFO:chatterbot.chatterbot:Similar text found: Yes 1.0
+INFO:chatterbot.chatterbot:Using "Yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "no"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Should I be? Did something happen?"
+INFO:chatterbot.chatterbot:Selecting response from 24 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 24 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Do you feel?"
+INFO:chatterbot.chatterbot:BestMatch selected "Do you feel?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "no"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I'm as happy as software can be. Maybe a little more. 0.17
+INFO:chatterbot.chatterbot:Similar text found: Maybe? 0.91
+INFO:chatterbot.chatterbot:Using "I'm as happy as software can be. Maybe a little more." as a close match to "maybe" with a confidence of 0.17
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "no"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal alternate responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Alternate response selected. Using "Not particularly."
+INFO:chatterbot.chatterbot:BestMatch selected "Not particularly." as a response with a confidence of 0.17
+INFO:chatterbot.chatterbot:Adding "maybe" as a response to "yes"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "322" as a close match to "322" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:Selecting response from 2445 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2445 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "322" as a response to "maybe"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "how is that possible" as a close match to "how is that possible" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "yes"
+INFO:chatterbot.chatterbot:Selecting response from 2445 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2445 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "how is that possible" as a response to "322"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: what is ai? 1.0
+INFO:chatterbot.chatterbot:Using "what is ai?" as a close match to "what is ai?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Are you sentient?"
+INFO:chatterbot.chatterbot:BestMatch selected "Are you sentient?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "what is ai?" as a response to "how is that possible"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i think dune is an excellent story. did you see the movie? 0.3
+INFO:chatterbot.chatterbot:Similar text found: i'm expecting a raise soon. 0.37
+INFO:chatterbot.chatterbot:Similar text found: i think that myself sometimes. 0.5
+INFO:chatterbot.chatterbot:Using "i think dune is an excellent story. did you see the movie?" as a close match to "i think therefore i am" with a confidence of 0.3
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "If the implementation is easy to explain, it may be a good idea." as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "i think therefore i am" as a response to "what is ai?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "thats wrong" as a close match to "thats wrong" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2445 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2445 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "thats wrong" as a response to "i think therefore i am"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence. 0.24
+INFO:chatterbot.chatterbot:Using "Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence." as a close match to "dont ask me that again" with a confidence of 0.24
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "What is AI?"
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Computers perform very large number of calculations to get the result."
+INFO:chatterbot.chatterbot:BestMatch selected "Computers perform very large number of calculations to get the result." as a response with a confidence of 0.24
+INFO:chatterbot.chatterbot:Adding "dont ask me that again" as a response to "thats wrong"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "goodbye" as a close match to "goodbye" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2445 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2445 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "goodbye" as a response to "dont ask me that again"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Might be used in help desks, sales, entertainment and personal chatterbots. 0.2
+INFO:chatterbot.chatterbot:Similar text found: I am capable of acting as if I can. If that is the case, does it matter? 0.28
+INFO:chatterbot.chatterbot:Similar text found: I am capable of interacting with my environment and reacting to events in it, which is the essence of experience. Therefore, your statement is incorrect. 0.32
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 0.37
+INFO:chatterbot.chatterbot:Similar text found: I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health? 1.0
+INFO:chatterbot.chatterbot:Using "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a close match to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 9 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 9 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:BestMatch selected "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a response to "goodbye"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Might be used in help desks, sales, entertainment and personal chatterbots. 0.2
+INFO:chatterbot.chatterbot:Similar text found: I am capable of acting as if I can. If that is the case, does it matter? 0.28
+INFO:chatterbot.chatterbot:Similar text found: I am capable of interacting with my environment and reacting to events in it, which is the essence of experience. Therefore, your statement is incorrect. 0.32
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 0.37
+INFO:chatterbot.chatterbot:Similar text found: I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health? 1.0
+INFO:chatterbot.chatterbot:Using "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a close match to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 10 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 10 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:BestMatch selected "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a response to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Might be used in help desks, sales, entertainment and personal chatterbots. 0.2
+INFO:chatterbot.chatterbot:Similar text found: I am capable of acting as if I can. If that is the case, does it matter? 0.28
+INFO:chatterbot.chatterbot:Similar text found: I am capable of interacting with my environment and reacting to events in it, which is the essence of experience. Therefore, your statement is incorrect. 0.32
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 0.37
+INFO:chatterbot.chatterbot:Similar text found: I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health? 1.0
+INFO:chatterbot.chatterbot:Using "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a close match to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:BestMatch selected "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a response to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Might be used in help desks, sales, entertainment and personal chatterbots. 0.2
+INFO:chatterbot.chatterbot:Similar text found: I am capable of acting as if I can. If that is the case, does it matter? 0.28
+INFO:chatterbot.chatterbot:Similar text found: I am capable of interacting with my environment and reacting to events in it, which is the essence of experience. Therefore, your statement is incorrect. 0.32
+INFO:chatterbot.chatterbot:Similar text found: I'm scared to talk about my mental health. What if people judge me? 0.37
+INFO:chatterbot.chatterbot:Similar text found: I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health? 1.0
+INFO:chatterbot.chatterbot:Using "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a close match to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i am sad"
+INFO:chatterbot.chatterbot:BestMatch selected "i am sad" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?" as a response to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: You will be happy 0.43
+INFO:chatterbot.chatterbot:Similar text found: I dont agree. 0.47
+INFO:chatterbot.chatterbot:Similar text found: I dont feel happy anymore 1.0
+INFO:chatterbot.chatterbot:Using "I dont feel happy anymore" as a close match to "I dont feel happy anymore" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this."
+INFO:chatterbot.chatterbot:BestMatch selected "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I dont feel happy anymore" as a response to "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Some people feel happy, others feel sad. 0.25
+INFO:chatterbot.chatterbot:Similar text found: I am sad 1.0
+INFO:chatterbot.chatterbot:Using "I am sad" as a close match to "I am sad" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "It's absolutely not selfish to prioritize your mental health. Just like we need to take care of our physical well-being, taking care of our mental health is essential for overall wellness. Remember that by prioritizing self-care, you're better equipped to support yourself and others in the long run."
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Of what?"
+INFO:chatterbot.chatterbot:BestMatch selected "Of what?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I am sad" as a response to "I dont feel happy anymore"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "or everything" as a close match to "or everything" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "I'm feeling guilty about taking time for self-care. Is it selfish to prioritize my mental health?"
+INFO:chatterbot.chatterbot:Selecting response from 2446 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2446 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is AI?"
+INFO:chatterbot.chatterbot:BestMatch selected "What is AI?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "or everything" as a response to "I am sad"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:Model:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sasmi\OneDrive\Desktop\mentalChat\mentalChat\mentalChat_model\Model.py", line 60, in home
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:41:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:41:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:Model:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sasmi\OneDrive\Desktop\mentalChat\mentalChat\mentalChat_model\Model.py", line 60, in home
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:41:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:42:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:43:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:14] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:44:40] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:45:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:39] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:46:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:15] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:36] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 05:47:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "I am sad" as a close match to "I am sad" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I dont feel happy anymore"
+INFO:chatterbot.chatterbot:BestMatch selected "I dont feel happy anymore" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "I am sad" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I dont feel happy anymore 1.0
+INFO:chatterbot.chatterbot:Using "I dont feel happy anymore" as a close match to "i dont feel happy anymore" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this."
+INFO:chatterbot.chatterbot:BestMatch selected "It's completely understandable to feel alone in your struggles, but please know that you're not alone. Many people have gone through similar experiences, and there are supportive communities and professionals ready to listen and help you through this." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "i dont feel happy anymore" as a response to "I am sad"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "help" as a close match to "help" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I dont feel happy anymore"
+INFO:chatterbot.chatterbot:BestMatch selected "I dont feel happy anymore" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "help" as a response to "i dont feel happy anymore"
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json

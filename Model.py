@@ -26,11 +26,10 @@ from flask import Flask, render_template, request
 chatbot = ChatBot("mentalChat")
 trainer = ChatterBotCorpusTrainer(chatbot)
 list_trainer = ListTrainer(chatbot)
-# trainer.train("chatter.corpus.english")
+
+# trainer.train("chatterbot.corpus.english.greetings")
 # trainer.export_for_training("./my_export.json")
 
-# trainer.train("./data/greetings_corpus/custom.corpus.json")
-# trainer.train("")
 
 list_trainer.train([
     "I dont feel happy anymore",
@@ -47,22 +46,22 @@ list_trainer.train([
 ) 
 # trainer.train("data/corpus/")
 
-# flag = 1
-# while(flag==1):
-#     myInput = input("You: ")
-#     response = chatbot.get_response(myInput)
-#     print(response)
+flag = 1
+while(flag==1):
+    myInput = input("You: ")
+    response = chatbot.get_response(myInput)
+    print(response)
 
 
-app = Flask(__name__)
-@app.route("/")
-def home():
-    return render_template("index.html")
-# @app.route("/get")
-# def get_bot_response():
-#     userText = request.args.get('msg')
-#     return str(chatbot.get_response(userText))
+# app = Flask(__name__)
+# @app.route("/")
+# def home():
+#     return render_template("index.html")
+# # @app.route("/get")
+# # def get_bot_response():
+# #     userText = request.args.get('msg')
+# #     return str(chatbot.get_response(userText))
 
-if __name__ == "__main__":
-    with app.app_context():
-        app.run()
+# if __name__ == "__main__":
+#     with app.app_context():
+#         app.run()

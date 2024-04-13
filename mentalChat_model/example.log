@@ -78,3 +78,12 @@ DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.ma
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:matplotlib:matplotlib data path: C:\Users\sasmi\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG:matplotlib:CONFIGDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is win32
+DEBUG:matplotlib:CACHEDIR=C:\Users\sasmi\.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from C:\Users\sasmi\.matplotlib\fontlist-v330.json
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m

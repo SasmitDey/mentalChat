@@ -1,11 +1,18 @@
 *{
+    /* margin: 0;
+    padding: 0; */
     align-content: center;
     color: red;
 }
 .bot, #talk_button{
     align-items: center;
-    display: flex;
+    display: relative;
+    /* position: relative; */
+    width: 50%;
     align-content: center;
-    color: antiquewhite;
+    color:darkslategrey;
     border-radius: 10px;
+    padding: 5px;
+    /* margin: 0; */
+    border: 50% 0% 50% 0%;
 }
